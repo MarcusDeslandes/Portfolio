@@ -1,3 +1,5 @@
+/* Card contato e curriculo */
+
 .conteudo-dados {
   display: flex;
   align-items: center;
@@ -76,4 +78,60 @@
     border: none;
     gap: 16px;
     cursor: pointer;
+}
+
+/* conteudo texto apresentação */
+.conteudo-texto {
+    padding: 64px 31px;
+}
+
+.tags-texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.conteudo-texto-h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    white-space: nowrap;
+    margin-left: 12px;
+}
+
+.conteudo-texto-titulo span {
+    color: var(--cor-secundaria);
+}
+
+.conteudo-texto-descricao {
+    padding: 35px 0;
+}
+
+.conteudo-texto-descricao p {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.texto-conversar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto-conversar h2 {
+    color: var(--cor-secundaria);
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.texto-conversar i {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-botao);
+    padding: 10px;
+    border-radius: 100%;
 }
