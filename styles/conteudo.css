@@ -1,0 +1,79 @@
+.conteudo-dados {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid var(--cor-branco);
+  margin: 35px;
+  padding: 64px 35px;
+  border-top-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  -webkit-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
+  -moz-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
+  box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
+}
+
+.conteudo-dados img {
+    width: 96px;
+    border: 4px solid var(--cor-secundaria);
+    border-radius: 64px;    
+}
+
+.conteudo-dados h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.conteudo-dados h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.conteudo-info {
+ font-size: 14px;
+ font-weight: 400;
+ padding: 32px 0;
+}
+
+.conteudo-info ul {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+}
+
+.conteudo-info i{
+    color: var(--cor-secundaria);
+    margin-right: 16px;
+}
+
+.tags-lista {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.tags-lista li {
+    background-color: var(--cor-secundaria);
+    padding: 0 8px;
+    border-radius: 12px;
+    color: var(--cor-principal);
+}
+
+.conteudo-botao {
+    padding: 32px 24px;
+}
+
+#botao-download {
+    display: flex;
+    padding: 16px 32px;
+    border-radius: 30px;
+    background-color: var(--cor-branco);
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--cor-principal);
+    border: none;
+    gap: 16px;
+    cursor: pointer;
+}

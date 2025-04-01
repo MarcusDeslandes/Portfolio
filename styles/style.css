@@ -1,0 +1,27 @@
+@import url(./header.css);
+@import url(./conteudo.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-principal: "IBM Plex Mono", monospace;
+    --cor-principal: #292f36;
+    --cor-secundaria: #12f7d6;
+    --cor-branco: #fff;
+    --cor-preto: #000;
+    --cor-botao: #43454D;
+    --cor-card-escuro: #1A1E23;
+    --cor-card-claro: #98FAEC;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: var(--cor-principal);
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 400;
+}
