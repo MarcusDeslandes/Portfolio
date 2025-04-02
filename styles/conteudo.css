@@ -12,10 +12,6 @@
   -webkit-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
   -moz-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
   box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
-  &:hover {
-    transform: scale(1.02);
-    transition: all .2s ease-in-out;
-  }
 }
 
 .conteudo-dados img {
@@ -38,6 +34,7 @@
  font-size: 14px;
  font-weight: 400;
  padding: 32px 0;
+ text-wrap: nowrap;
 }
 
 .conteudo-info ul {
@@ -49,7 +46,7 @@
 
 .conteudo-info i{
     color: var(--cor-secundaria);
-    margin-right: 16px;
+    margin-right: 8px;
 }
 
 .tags-lista {
@@ -71,12 +68,15 @@
 
 #botao-download {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 16px 32px;
     border-radius: 30px;
     background-color: var(--cor-branco);
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 400;
     text-decoration: none;
+    text-wrap: nowrap;
     color: var(--cor-principal);
     border: none;
     gap: 16px;
@@ -121,6 +121,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 6px;
 }
 
 .texto-conversar h2 {
@@ -128,7 +129,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
 }
 

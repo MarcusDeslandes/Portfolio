@@ -1,0 +1,39 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 32px;
+    background-color: var(--cor-card-escuro);
+}
+
+.projetos::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/background-projects.png);
+    inset: 0;
+    opacity: 30%;
+    
+}
+
+.projetos h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    z-index: 1;
+}
+
+hr {
+    border-color: var(--cor-secundaria);
+    border-style: solid;
+    width: 75%;
+}
+
+.projetos p {
+    font-size: 16px 0;
+    font-weight: 400;
+    text-align: center;
+    padding: 16px;
+}

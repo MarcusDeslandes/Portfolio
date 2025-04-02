@@ -61,6 +61,7 @@
     border: 1px solid var(--cor-botao);
     border-radius: 5px;
     overflow: hidden;
+    align-items: center;
 }
 
 .menu.active {
@@ -68,12 +69,14 @@
 }
 
 .menu li {
-    padding: 10px 20px;
+    padding: 10px 110px;
+    
 }
 
 .menu li a {
     color: var(--cor-branco);
     text-decoration: none;
+    text-wrap: nowrap;   
     &:hover {
         color: var(--cor-secundaria);
     }
