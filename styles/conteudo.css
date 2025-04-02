@@ -12,6 +12,10 @@
   -webkit-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
   -moz-box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
   box-shadow: -4px -4px 0px 0px rgba(18, 247, 214, 1);
+  &:hover {
+    transform: scale(1.02);
+    transition: all .2s ease-in-out;
+  }
 }
 
 .conteudo-dados img {

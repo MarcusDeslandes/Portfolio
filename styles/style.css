@@ -1,5 +1,7 @@
 @import url(./header.css);
 @import url(./conteudo.css);
+@import url(./sobre-mim.css);
+@import url(./skills.css);
 
 * {
     box-sizing: border-box;
@@ -16,6 +18,11 @@
     --cor-botao: #43454D;
     --cor-card-escuro: #1A1E23;
     --cor-card-claro: #98FAEC;
+    --cor-azul-card: #98FAEC;
+    --cor-azul-css: #0C73B8;
+    --cor-laranja-html: #E54F26;
+    --cor-amarelo-js: #E7A020;
+    --cor-azul-react: #28A9E0;
 }
 
 body {

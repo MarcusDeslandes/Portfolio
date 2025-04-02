@@ -1,0 +1,84 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100hv;
+    width: 100%;
+    position: relative;
+    padding: 64px;
+}
+
+.skills::before {
+    content: "";
+    position: absolute;
+    background-color: var(--cor-principal);
+    background-image: url(/assets/img/background-code.png);
+    inset: 0;
+    opacity: 10%;
+}
+
+.skills h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+hr {
+    border-color: var(--cor-secundaria);
+    border-style: solid;
+    width: 50%;
+}
+
+.skills p {
+    font-size: 16px 0;
+    font-weight: 400;
+    text-align: center;
+    padding: 16px;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    background-color: var(--cor-azul-card);
+    color: var(--cor-principal);
+    border-radius: 8px;
+    z-index: 1;
+    -webkit-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+    -moz-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+    box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+    margin-top: 64px;
+}
+
+.skills-card h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+.skills-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-botao);
+}
+
+.skills-icones {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.icones-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-icones i {
+    font-size: 48px;
+}
