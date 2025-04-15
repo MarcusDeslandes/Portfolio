@@ -1,0 +1,36 @@
+.rodape {
+    background-color: var(--cor-card-escuro);
+    border-top: 1px solid var(--cor-botao);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+    border-top: 1px solid var(--cor-botao);
+}
+
+.rodape p {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px;
+    text-align: center;
+}
+
+.rodape-icones {
+    display: flex;
+    padding-bottom: 24px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.rodape-icones i {
+    color: var(--cor-principal);
+    background-color: var(--cor-card-claro);
+    padding: 8px;
+    border-radius: 48px;
+}
+
+.rodape-design span {
+    color: var(--cor-secundaria);
+    text-decoration: underline;
+}

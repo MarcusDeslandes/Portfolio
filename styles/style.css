@@ -4,6 +4,7 @@
 @import url(./skills.css);
 @import url(./projetos.css);
 @import url(./contato.css);
+@import url(./footer.css);
 
 * {
     box-sizing: border-box;

@@ -99,7 +99,6 @@
 
         <section class="skills">
             <h1>Skills</h1>
-            <hr />
             <p>Estou me esforçando para nunca parar de aprender e melhorar</p>
 
             <div class="skills-card">
@@ -126,7 +125,6 @@
 
         <section class="projetos">
             <h1>Projetos</h1>
-            <hr />
             <p>Tive o prazer de trabalhar com esses projetos incríveis
             </p>
             <div id="projetos-carrossel" class="projetos-carrossel">
@@ -155,21 +153,36 @@
 
         <section class="contato">
             <h1>Contato</h1>
-            <hr />
             <p>Precisa de algum projeto ou ideias?</p>
             <h2>Mande-me uma mensagem</h2>
 
-            <form action="https://formsubmit.co/deslandes.marcus@hotmail.com" method="POST">
-                <label for="name">Seu Nome:*</label>
-                <input type="text" name="name" required placeholder="Digite seu nome!">
-                <label for="email">Seu email:*</label>
-                <input type="email" name="email" required placeholder="Digite seu email!">
-                <label for="message">Sua mensagem:*</label>
-                <textarea name="message" placeholder="Digite aqui a sua mensagem!"></textarea>
-                <input type="hidden" name="_captcha" value="false">
-                <button type="submit">Enviar</button>
+            <form action="https://formsubmit.co/deslandes.marcus@hotmail.com" method="POST">                
+                <label for="name">Seu Nome *</label>
+                <input type="text" name="name" id="name" required placeholder="Digite seu nome!" autocomplete="off">
+                <label for="email">Seu email *</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu email!" autocomplete="off">         
+                <label for="message">Sua mensagem *</label>
+                <textarea name="message" id="message" placeholder="Digite aqui a sua mensagem!"></textarea>                
+                <input type="hidden" name="_captcha" value="false" autocomplete="off">
+                <button type="submit">Enviar mensagem <i class="fa-regular fa-paper-plane"></i></button>
            </form>
         </section>
+
+        <footer class="rodape">
+            <div class="rodape-icones">
+                <a href="https://github.com/MarcusDeslandes" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/marcus-deslandes/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/10landes/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="rodape-direitos">
+                © 2024 MarcusDeslandes.</p>
+            <p>
+                Todos os direitos reservados.
+            </p>
+            <p class="rodape-design">
+                Design por <span>JohannLeon</span>
+            </p>       
+        </footer>
     </main>
 
     <script src="./script.js"></script>
