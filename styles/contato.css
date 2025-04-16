@@ -40,20 +40,20 @@
     margin-bottom: 64px;
 }
 
-.contato form {
+.contato .formulario {
     display: flex;
     flex-direction: column;
     gap: 24px 0;
     align-items:center;
 }
 
-.contato form label {
+.contato .formulario label {
     color: var(--cor-secundaria);
     font-size: 16px;
     font-weight: 300;
 }
 
-.contato form input {
+.contato .formulario input {
     font-family: var(--fonte-principal);
     background: none;
     border: none;
@@ -64,7 +64,7 @@
     padding: 10px;
 }
 
-.contato form textarea {
+.contato .formulario textarea {
     font-family: var(--fonte-principal);
     background: none;
     border: none;
