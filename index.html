@@ -146,9 +146,6 @@
                     <img class="img-dual-screen" src="/assets/img/Dual-screen.png" alt="">
                 </div>
             </div>
-            <div class="btnCarrossel BtnNext">
-                <span id="seta"><i class="fa-solid fa-arrow-right"></i></span>
-            </div>
         </section>
 
         <section class="contato">
@@ -156,16 +153,19 @@
             <p>Precisa de algum projeto ou ideias?</p>
             <h2>Mande-me uma mensagem</h2>
 
-            <form action="https://formsubmit.co/deslandes.marcus@hotmail.com" method="POST">                
+            <form id="formulario" action="" method="">                
                 <label for="name">Seu Nome *</label>
                 <input type="text" name="name" id="name" required placeholder="Digite seu nome!" autocomplete="off">
                 <label for="email">Seu email *</label>
                 <input type="email" name="email" id="email" required placeholder="Digite seu email!" autocomplete="off">         
                 <label for="message">Sua mensagem *</label>
                 <textarea name="message" id="message" placeholder="Digite aqui a sua mensagem!"></textarea>                
-                <input type="hidden" name="_captcha" value="false" autocomplete="off">
-                <button type="submit">Enviar mensagem <i class="fa-regular fa-paper-plane"></i></button>
+                <button id="formulario-botao" type="submit">Enviar mensagem <i class="fa-regular fa-paper-plane"></i></button>
            </form>
+
+           <div id="formulario-enviado" class="none">
+            <h1>Obrigado</h1>
+           </div>
         </section>
 
         <footer class="rodape">

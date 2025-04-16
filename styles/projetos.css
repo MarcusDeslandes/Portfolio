@@ -41,7 +41,7 @@ hr {
 }
 
 .projetos-carrossel {
-    display: none;
+    display: flex;
     z-index: 1;
 
 }

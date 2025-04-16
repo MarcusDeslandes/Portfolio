@@ -99,11 +99,11 @@ hr {
     padding: 30px 35px;
     font-size: 42px;
     &:hover {
-        color: var(--cor-preto);
+        color: var(--cor-card-escuro);
         box-shadow: 0 0 5px var(--cor-laranja-html),
             0 0 25px var(--cor-laranja-html),
             0 0 50px var(--cor-laranja-html),
-            0 0 200px var(--cor-laranja-html);
+            0 0 10px var(--cor-laranja-html);
     }
 }
 
@@ -114,11 +114,11 @@ hr {
     padding: 30px 35px;
     font-size: 42px;
     &:hover {
-        color: var(--cor-preto);
+        color: var(--cor-card-escuro);
         box-shadow: 0 0 5px var(--cor-azul-css),
             0 0 25px var(--cor-azul-css),
             0 0 50px var(--cor-azul-css),
-            0 0 200px var(--cor-azul-css);
+            0 0 10px var(--cor-azul-css);
     }
 }
 
@@ -129,7 +129,7 @@ hr {
     padding: 32px;
     font-size: 42px;
     &:hover {
-        color: var(--cor-preto);
+        color: var(--cor-card-escuro);
         box-shadow: 0 0 5px var(--cor-amarelo-js),
             0 0 25px var(--cor-amarelo-js),
             0 0 50px var(--cor-amarelo-js),
@@ -144,7 +144,7 @@ hr {
     padding: 32px;
     font-size: 42px;
     &:hover {
-        color: var(--cor-preto);
+        color: var(--cor-card-escuro);
         box-shadow: 0 0 5px var(--cor-azul-react),
             0 0 25px var(--cor-azul-react),
             0 0 50px var(--cor-azul-react),

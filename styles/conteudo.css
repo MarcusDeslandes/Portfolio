@@ -17,7 +17,7 @@
     box-shadow: 0 0 5px var(--cor-secundaria),
         0 0 25px var(--cor-secundaria),
         0 0 50px var(--cor-secundaria),
-        0 0 200px var(--cor-secundaria);
+        0 0 10px var(--cor-secundaria);
 }
 }
 
@@ -126,7 +126,7 @@
 
 .texto-conversar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 6px;
 }
@@ -135,6 +135,7 @@
     color: var(--cor-secundaria);
     align-items: center;
     justify-content: center;
+    text-wrap: nowrap;
     gap: 16px;
     font-size: 24px;
     font-weight: 500;
