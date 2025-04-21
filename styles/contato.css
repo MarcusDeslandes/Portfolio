@@ -80,7 +80,7 @@
     resize: none
 }
 
-.contato button {
+.contato #formulario-botao {
     background-color: var(--cor-secundaria);
     color: var(--cor-card-escuro);
     border: none;
