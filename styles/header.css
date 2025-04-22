@@ -1,74 +1,147 @@
-.cabecalho nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid var(--cor-botao);
-}
+@media only screen and (min-width: 375px) {
+    .cabecalho nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--cor-botao);
+    }
 
-.menu-hamburguer i {
-    color: var(--cor-branco);
-    &:hover {
+    .menu-hamburguer i {
+        color: var(--cor-branco);
+        &:hover {
+            color: var(--cor-secundaria);
+        }
+    }
+
+    .cabecalho span {
         color: var(--cor-secundaria);
+    }
+
+    .cabecalho-icones {
+        display: none;
+    }
+
+    /* Menu hamburguer */
+    .hamburguer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .hamburguer #line {
+        width: 100%;
+        &:hover {
+            color: var(--cor-secundaria);
+        }
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        right: 25px;
+        background-color: var(--cor-principal);
+        border: 1px solid var(--cor-botao);
+        border-radius: 5px;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 10px 110px;
+        
+    }
+
+    .menu li a {
+        color: var(--cor-branco);
+        text-decoration: none;
+        text-wrap: nowrap;   
+        &:hover {
+            color: var(--cor-secundaria);
+        }
+    }
+
+    .menu-lateral {
+        display: none;
     }
 }
 
-.cabecalho span {
-    color: var(--cor-secundaria);
-}
-
-.cabecalho-icones {
-    display: none;
-}
-
-/* Menu hamburguer */
-.hamburguer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-}
-
-.hamburguer #line {
-    width: 100%;
-    transition: all 0.3s ease-in-out;
-    &:hover {
-        color: var(--cor-secundaria);
+@media only screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 16px;
     }
-}
 
-.menu {
-    list-style: none;
-    padding: 0;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 75px;
-    right: 25px;
-    background-color: var(--cor-principal);
-    border: 1px solid var(--cor-botao);
-    border-radius: 5px;
-    overflow: hidden;
-    align-items: center;
-}
+    nav p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
 
-.menu.active {
-    display: flex;
-}
+    .hamburguer {
+        display: none;
+    }
 
-.menu li {
-    padding: 10px 110px;
+    .cabecalho-icones {
+        display: flex;
+        gap: 20px;
+        margin-right: 50px;
+    }
+
+    .cabecalho-icones i {
+        color: var(--cor-secundaria);
+        font-size: 15px;
+    }
+
+    .menu-lateral {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        left: 64px;
+        top: 150px;
+        background-color: var(--cor-card-escuro);
+        padding: 12px 12px;
+        list-style: none;
+        text-decoration: none;
+        border: 1px solid var(--cor-branco);
+        border-radius: 50px;
+        z-index: 2;
+    }
     
-}
+    .menu-lateral ul {
+        list-style: none;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
 
-.menu li a {
-    color: var(--cor-branco);
-    text-decoration: none;
-    text-wrap: nowrap;   
-    &:hover {
-        color: var(--cor-secundaria);
+    .menu-lateral ul li {
+        align-items:center;       
+    }
+
+    .menu-lateral ul li a{
+        align-items: center;
+        color: var(--cor-branco);       
+    }
+
+    .menu-lateral ul li a i {
+        align-items: center;
+        padding: 12px;
+        &:hover {
+            color: var(--cor-preto);
+            background-color: var(--cor-branco);
+            border-radius: 50px;
+        }
     }
 }
