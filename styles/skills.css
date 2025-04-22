@@ -1,173 +1,185 @@
-.skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: relative;
-    padding: 32px;
-}
+@media only screen and (min-width: 375px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        padding: 32px;
+    }
 
-.skills::before {
-    content: "";
-    position: absolute;
-    background-color: var(--cor-principal);
-    background-image: url(/assets/img/background-code.png);
-    inset: 0;
-    opacity: 10%;
-}
+    .skills-logo {
+        display: none;
+    }
 
-.skills h1 {
-    font-size: 64px;
-    font-weight: 400;
-    color: var(--cor-secundaria);
-}
+    .skills::before {
+        content: "";
+        position: absolute;
+        background-color: var(--cor-principal);
+        background-image: url(/assets/img/background-code.png);
+        inset: 0;
+        opacity: 10%;
+    }
 
-hr {
-    border-color: var(--cor-secundaria);
-    border-style: solid;
-    width: 50%;
-}
+    .skills h1 {
+        font-size: 64px;
+        font-weight: 400;
+        color: var(--cor-secundaria);
+    }
 
-.skills p {
-    font-size: 16px 0;
-    font-weight: 400;
-    text-align: center;
-    padding: 16px;
-}
+    hr {
+        border-color: var(--cor-secundaria);
+        border-style: solid;
+        width: 50%;
+    }
 
-.skills-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 24px 16px;
-    background-color: var(--cor-azul-card);
-    color: var(--cor-principal);
-    border-radius: 8px;
-    z-index: 1;
-    -webkit-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
-    -moz-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
-    box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
-    margin-top: 64px;
-}
+    .skills p {
+        font-size: 16px 0;
+        font-weight: 400;
+        text-align: center;
+        padding: 16px;
+    }
 
-.skills-card h2 {
-    font-size: 24px;
-    font-weight: 400;
-    padding: 8px 0;
-    text-wrap: nowrap;
-}
+    .skills-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+        background-color: var(--cor-azul-card);
+        color: var(--cor-principal);
+        border-radius: 8px;
+        z-index: 1;
+        -webkit-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+        -moz-box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+        box-shadow: -13px 0px 0px 0px rgba(12,115,184,0.75);
+        margin-top: 64px;
+    }
 
-.skills-card p {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--cor-botao);
-}
+    .skills-card h2 {
+        font-size: 24px;
+        font-weight: 400;
+        padding: 8px 0;
+        text-wrap: nowrap;
+    }
 
-.skills-icones {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    align-items: center;
-    padding-top: 50px;
-    /* width: 100%; */
-}
+    .skills-card p {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--cor-botao);
+    }
 
-.icones-i-1, .icones-i-2, .icones-i-3, .icones-i-4  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    padding: 24px;
-    &:hover {
-        transform: scale(1.1);
-        transition: all .2s ease-in-out;
-      }
-}
+    .skills-icones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+        padding-top: 50px;
+        /* width: 100%; */
+    }
 
-.icones-i-1, .icones-i-3 {
-    display: flex;
-    flex-direction: column;
-}
+    .icones-i-1, .icones-i-2, .icones-i-3, .icones-i-4  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding: 24px;
+        &:hover {
+            transform: scale(1.1);
+            transition: all .2s ease-in-out;
+        }
+    }
 
-.icones-i-1 i {
-    background-color: var(--cor-laranja-html);
-    z-index: 1;
-    border-radius: 100%;
-    padding: 30px 35px;
-    font-size: 42px;
-    &:hover {
-        color: var(--cor-card-escuro);
-        box-shadow: 0 0 5px var(--cor-laranja-html),
-            0 0 25px var(--cor-laranja-html),
-            0 0 50px var(--cor-laranja-html),
-            0 0 10px var(--cor-laranja-html);
+    .icones-i-1, .icones-i-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icones-i-1 i {
+        background-color: var(--cor-laranja-html);
+        z-index: 1;
+        border-radius: 100%;
+        padding: 30px 35px;
+        font-size: 42px;
+        &:hover {
+            color: var(--cor-card-escuro);
+            box-shadow: 0 0 5px var(--cor-laranja-html),
+                0 0 25px var(--cor-laranja-html),
+                0 0 50px var(--cor-laranja-html),
+                0 0 10px var(--cor-laranja-html);
+        }
+    }
+
+    .icones-i-2 i {
+        background-color: var(--cor-azul-css);
+        z-index: 3;
+        border-radius: 100%;
+        padding: 30px 35px;
+        font-size: 42px;
+        &:hover {
+            color: var(--cor-card-escuro);
+            box-shadow: 0 0 5px var(--cor-azul-css),
+                0 0 25px var(--cor-azul-css),
+                0 0 50px var(--cor-azul-css),
+                0 0 10px var(--cor-azul-css);
+        }
+    }
+
+    .icones-i-3 i {
+        background-color: var(--cor-amarelo-js);
+        z-index: 1;
+        border-radius: 100%;
+        padding: 32px;
+        font-size: 42px;
+        &:hover {
+            color: var(--cor-card-escuro);
+            box-shadow: 0 0 5px var(--cor-amarelo-js),
+                0 0 25px var(--cor-amarelo-js),
+                0 0 50px var(--cor-amarelo-js),
+                0 0 200px var(--cor-amarelo-js);
+        }
+    }
+
+    .icones-i-4 i {
+        background-color: var(--cor-azul-react);
+        z-index: 1;
+        border-radius: 100%;
+        padding: 32px;
+        font-size: 42px;
+        &:hover {
+            color: var(--cor-card-escuro);
+            box-shadow: 0 0 5px var(--cor-azul-react),
+                0 0 25px var(--cor-azul-react),
+                0 0 50px var(--cor-azul-react),
+                0 0 200px var(--cor-azul-react);
+        }
+    }
+
+    .icones-i-1 p {
+        font-size: 32px;
+        color: var(--cor-laranja-html);
+    }
+
+    .icones-i-2 p {
+        font-size: 32px;
+        color: var(--cor-azul-css);
+    }
+
+    .icones-i-3 p {
+        font-size: 32px;
+        color: var(--cor-amarelo-js);
+    }
+
+    .icones-i-4 p {
+        font-size: 32px;
+        color: var(--cor-azul-react);
     }
 }
 
-.icones-i-2 i {
-    background-color: var(--cor-azul-css);
-    z-index: 3;
-    border-radius: 100%;
-    padding: 30px 35px;
-    font-size: 42px;
-    &:hover {
-        color: var(--cor-card-escuro);
-        box-shadow: 0 0 5px var(--cor-azul-css),
-            0 0 25px var(--cor-azul-css),
-            0 0 50px var(--cor-azul-css),
-            0 0 10px var(--cor-azul-css);
+@media only screen and (min-width: 768px) {
+    .skiils-logo {
+        display: flex;
     }
-}
-
-.icones-i-3 i {
-    background-color: var(--cor-amarelo-js);
-    z-index: 1;
-    border-radius: 100%;
-    padding: 32px;
-    font-size: 42px;
-    &:hover {
-        color: var(--cor-card-escuro);
-        box-shadow: 0 0 5px var(--cor-amarelo-js),
-            0 0 25px var(--cor-amarelo-js),
-            0 0 50px var(--cor-amarelo-js),
-            0 0 200px var(--cor-amarelo-js);
-    }
-}
-
-.icones-i-4 i {
-    background-color: var(--cor-azul-react);
-    z-index: 1;
-    border-radius: 100%;
-    padding: 32px;
-    font-size: 42px;
-    &:hover {
-        color: var(--cor-card-escuro);
-        box-shadow: 0 0 5px var(--cor-azul-react),
-            0 0 25px var(--cor-azul-react),
-            0 0 50px var(--cor-azul-react),
-            0 0 200px var(--cor-azul-react);
-    }
-}
-
-.icones-i-1 p {
-    font-size: 32px;
-    color: var(--cor-laranja-html);
-}
-
-.icones-i-2 p {
-    font-size: 32px;
-    color: var(--cor-azul-css);
-}
-
-.icones-i-3 p {
-    font-size: 32px;
-    color: var(--cor-amarelo-js);
-}
-
-.icones-i-4 p {
-    font-size: 32px;
-    color: var(--cor-azul-react);
 }

@@ -99,7 +99,7 @@
     }
 
     .cabecalho-icones i {
-        color: var(--cor-secundaria);
+        color: var(--cor-card-claro);
         font-size: 15px;
     }
 
