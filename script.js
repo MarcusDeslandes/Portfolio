@@ -10,7 +10,10 @@ hamburguer.addEventListener('click', () => {
 const formulario = document.querySelector('#formulario');
 const botaoFormulario = document.querySelector('#formulario-botao');
 
-botaoFormulario.addEventListener('click', () => {
+function submit (event) {
     formulario.className = 'edit';
     formulario.innerHTML = 'Obrigado! Responderei assim que possível!';
-})
+    event.preventDefault();
+}
+
+formulario.addEventListener('submit', submit)
