@@ -107,10 +107,10 @@
         display: flex;
         align-items: center;
         position: fixed;
-        left: 64px;
+        left: 35px;
         top: 150px;
         background-color: var(--cor-card-escuro);
-        padding: 12px 12px;
+        padding: 8px 4px;
         list-style: none;
         text-decoration: none;
         border: 1px solid var(--cor-branco);
@@ -137,7 +137,7 @@
 
     .menu-lateral ul li a i {
         align-items: center;
-        padding: 12px;
+        padding: 6px;
         &:hover {
             color: var(--cor-preto);
             background-color: var(--cor-branco);
