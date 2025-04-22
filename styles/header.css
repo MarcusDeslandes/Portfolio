@@ -18,6 +18,10 @@
     color: var(--cor-secundaria);
 }
 
+.cabecalho-icones {
+    display: none;
+}
+
 /* Menu hamburguer */
 .hamburguer {
     display: flex;
