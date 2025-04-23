@@ -38,11 +38,6 @@
                 0 0 10px var(--cor-azul-css);
         }
     }
-
-    .rodape-design span {
-        color: var(--cor-secundaria);
-        text-decoration: underline;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -61,5 +56,6 @@
 
     .rodape-icones {
         padding-bottom: 0;
+        font-size: 20px;
     }
 }
