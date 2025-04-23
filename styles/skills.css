@@ -182,6 +182,7 @@
     .skills-logo {
         display: flex;
         justify-content: flex-end;
+        align-items: end;
         color: var(--cor-secundaria);
         font-size: 120px;
         font-weight: 700;
@@ -189,6 +190,6 @@
 
     .skills-icones {
         display: flex;
-        gap: 60px;
+        gap: 5px;
     }
 }
