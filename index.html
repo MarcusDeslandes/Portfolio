@@ -170,14 +170,22 @@
             <p>Precisa de algum projeto ou ideias?</p>           
             <h2>Mande-me uma mensagem</h2>           
 
-            <form id="formulario" class="formulario" action="" method="">                
-                <label for="name">Seu Nome *</label>
-                <input type="text" name="name" id="name" required placeholder="Digite seu nome!" autocomplete="off">
-                <label for="email">Seu email *</label>
-                <input type="email" name="email" id="email" required placeholder="Digite seu email!" autocomplete="off">         
-                <label for="message">Sua mensagem *</label>
-                <textarea name="message" id="message" placeholder="Digite aqui a sua mensagem!"></textarea>                
-                <input id="formulario-botao" type="submit" value= "Enviar mensagem"></input>
+            <form id="formulario" class="formulario" action="" method="">
+                <div class="formulario-item">                
+                    <label for="name">Seu Nome *</label>
+                    <input type="text" name="name" id="name" required placeholder="Digite seu nome!" autocomplete="off">
+                </div>
+                <div class="formulario-item">
+                    <label for="email">Seu email *</label>
+                    <input type="email" name="email" id="email" required placeholder="Digite seu email!" autocomplete="off"> 
+                </div>
+                <div class="formulario-item">
+                    <label for="message">Sua mensagem *</label>
+                    <textarea name="message" id="message" placeholder="Digite aqui a sua mensagem!"></textarea>
+                </div>
+                <div class="formulario-div-botao">
+                    <input id="formulario-botao" type="submit" value= "Enviar mensagem"></input>
+                </div>
            </form>
            
         </section>

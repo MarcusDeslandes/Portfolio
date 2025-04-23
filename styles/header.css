@@ -94,13 +94,13 @@
 
     .cabecalho-icones {
         display: flex;
-        gap: 20px;
+        gap: 40px;
         margin-right: 50px;
     }
 
     .cabecalho-icones i {
         color: var(--cor-card-claro);
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .menu-lateral {
