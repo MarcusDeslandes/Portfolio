@@ -63,15 +63,6 @@
         font-weight: 400;
         position: relative;
         top: 30px;
-        left: 30px;
-    }
-
-    .projetos-container-item i {
-        color: var(--cor-secundaria);
-        font-size: 24px;
-        position: relative;
-        top: 56px;
-        left: 10px;
     }
 }
 
@@ -85,5 +76,11 @@
         flex-direction: row;
         width: 80%;
         gap: 50px;
+        margin-top: 50px;
+    }
+
+    .projetos-container-item a {
+        text-wrap: nowrap;
+        top: 0;
     }
 }
