@@ -179,7 +179,16 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .skiils-logo {
+    .skills-logo {
         display: flex;
+        justify-content: flex-end;
+        color: var(--cor-secundaria);
+        font-size: 120px;
+        font-weight: 700;
+    }
+
+    .skills-icones {
+        display: flex;
+        gap: 60px;
     }
 }
