@@ -28,6 +28,10 @@
     --cor-azul-react: #28A9E0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fonte-principal);
     background: var(--cor-principal);
