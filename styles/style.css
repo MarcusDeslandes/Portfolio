@@ -40,6 +40,24 @@ body {
     font-weight: 400;
 }
 
-.fade-in {
-    animation: fade 1s ease-out;
+.botao-return i {
+    position: fixed;
+    bottom: 50px;
+    right: 12px;
+    padding: 12px;
+    background-color: var(--cor-card-claro);
+    color: var(--cor-card-escuro);
+    border-radius: 100%;
+    font-size: 15px;
+    z-index: 2;
+    transition: transform 300ms ease-out;
+    &:hover {
+        transform: translate(0px, 0px) scale(1.1, 1.1);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .botao-return {
+        display: none;
+    }
 }
