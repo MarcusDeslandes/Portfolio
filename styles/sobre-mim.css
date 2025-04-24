@@ -26,7 +26,7 @@
         flex-direction: column;
     }
 
-    .sobre-mim h2 {
+    .sobre-mim-titulo h2 {
         font-size: 32px;
         text-align: center;
         width: 250px;
@@ -74,14 +74,36 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .sobre-mim-conteudo {
-        
+    .sobre-mim-conteudo {      
         align-items:center;
         margin: 0 100px;
     }
-    
-    .sobre-mim h2 {
+
+    .sobre-mim-titulo {
         margin-top: 150px;
     }
+}
 
+@media only screen and (min-width: 1200px) {
+    .sobre-mim {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .sobre-mim-conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .sobre-mim_texto {
+        text-wrap: wrap;
+    }
+
+    .sobre-mim-img img {
+        width: 450px;
+        margin-left: 32px;
+        margin-top: 125px;
+    }
 }
