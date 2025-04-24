@@ -132,7 +132,7 @@
 
 @media only screen and (min-width: 768px) {
     .contato h1 {
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .contato h2 {
@@ -164,5 +164,16 @@
     ::placeholder {
         text-align: left;
         color: var(--cor-branco);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .formulario {
+        margin: 0 400px;
+    }
+
+    .contato #formulario-botao {
+        margin-bottom: 40px;
     }
 }
