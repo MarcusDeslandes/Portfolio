@@ -54,13 +54,20 @@
 
     .projetos-container-item {
         text-align: right;
+        transition: transform 300ms ease-out;
+        &:hover {
+            transform: translate(0px, 0px) scale(1.1, 1.1);
+        }
     }
 
     .projetos-container-item a {
         text-decoration: none;
-        color: var(--cor-secundaria);
+        color: var(--cor-card-escuro);
+        padding: 10px;
+        border-radius: 20px;
+        background-color: var(--cor-card-claro);
         font-size:18px;
-        font-weight: 400;
+        font-weight: 500;
         position: relative;
         top: 30px;
     }
