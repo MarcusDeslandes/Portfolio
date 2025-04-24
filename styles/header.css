@@ -113,6 +113,10 @@
         }
     }
 
+    .cabecalho-icones p {
+        display: none;
+    }
+
     .menu-lateral {
         display: flex;
         align-items: center;
@@ -153,5 +157,13 @@
             background-color: var(--cor-branco);
             border-radius: 50px;
         }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cabecalho-icones p {
+        display: flex;
+        align-items: center;
+        margin: 0;
     }
 }
