@@ -7,15 +7,16 @@
         width: 100%;
         position: relative;
         padding: 32px;
-        background-color: var(--cor-card-escuro);
+        background-color: var(--cor-principal);
     }
 
     .projetos::before {
         content: "";
         position: absolute;
-        background-image: url(/assets/img/background-projects.png);
+        background-image: url(/assets/img/background-waves.png);
         inset: 0;
         opacity: 20%;
+        color: var(--cor-branco);
         
     }
 

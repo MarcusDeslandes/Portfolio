@@ -1,6 +1,6 @@
 @media only screen and (min-width: 375px) {  
     .rodape {
-        background-color: var(--cor-card-escuro);
+        background-color: var(--cor-principal);
         border-top: 1px solid var(--cor-botao);
         display: flex;
         flex-direction: column;
@@ -31,8 +31,8 @@
         border-radius: 48px;
         &:hover {
             color: var(--cor-card-escuro);
-            background-color: var(--cor-card-claro);
-            box-shadow: 0 0 5px var(--cor-azul-css),
+            background-color: var(--cor-secundaria);
+            box-shadow: 0 0 5px var(--cor-secundaria),
                 0 0 25px var(--cor-azul-css),
                 0 0 50px var(--cor-azul-css),
                 0 0 10px var(--cor-azul-css);

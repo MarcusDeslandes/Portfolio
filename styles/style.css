@@ -14,14 +14,14 @@
 
 :root {
     --fonte-principal: "IBM Plex Mono", monospace;
-    --cor-principal: #292f36;
-    --cor-secundaria: #12f7d6;
+    --cor-principal: #000;
+    --cor-secundaria: #63CAF2;
     --cor-branco: #fff;
     --cor-preto: #000;
     --cor-botao: #43454D;
-    --cor-card-escuro: #1A1E23;
-    --cor-card-claro: #98FAEC;
-    --cor-azul-card: #98FAEC;
+    --cor-card-escuro: #0B1C26;
+    --cor-card-claro: #63CAF2;
+    --cor-azul-card: #0B1C26;
     --cor-azul-css: #0C73B8;
     --cor-laranja-html: #E54F26;
     --cor-amarelo-js: #E7A020;

@@ -8,7 +8,7 @@
         width: 100%;
         position: relative;
         padding: 64px 24px;
-        background-color: var(--cor-card-escuro);   
+        background-color: var(--cor-principal);   
     }
 
     .sobre-mim::before {
@@ -24,6 +24,10 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
+
+    .sobre-mim-titulo {
+        z-index: 1;
     }
 
     .sobre-mim-titulo h2 {
@@ -67,8 +71,11 @@
         color: var(--cor-secundaria);
     }
 
-    .sobre-mim img {
+    .sobre-mim-img {
         z-index: 1;
+    }
+
+    .sobre-mim-img img {
         padding: 64px 36px;
     }
 }

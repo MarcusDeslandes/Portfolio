@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
         padding: 24px 16px;
-        background-color: var(--cor-azul-card);
+        background-color: var(--cor-secundaria);
         color: var(--cor-principal);
         border-radius: 8px;
         z-index: 1;
