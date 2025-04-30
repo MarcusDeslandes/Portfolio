@@ -48,4 +48,4 @@ Neste projeto, apliquei com carinho os seguintes pontos:
 
 ## 🏆 Licença
 
-O projeto está licenciado sob a [MIT License](./LICENSE).
+O projeto está licenciado sob a [MIT License](./LICENSE.txt).
