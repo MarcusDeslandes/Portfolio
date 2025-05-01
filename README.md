@@ -41,11 +41,11 @@ Neste projeto, apliquei com carinho os seguintes pontos:
 <table align="center">
   <tr>
     <td>
-      Feito por <a href="https://github.com/MarcusDeslandes" style="color: #FF1493;">Marcus Deslandes</a> 🌸
+      Feito por <a href="https://github.com/MarcusDeslandes" style="color: #FF1493;">Marcus Deslandes</a>
     </td>
   </tr>
 </table>
 
 ## 🏆 Licença
 
-O projeto está licenciado sob a [MIT License](./LICENSE).
+O projeto está licenciado sob a [MIT License](./LICENSE.txt).
