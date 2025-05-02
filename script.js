@@ -17,3 +17,6 @@ function submit (event) {
 }
 
 formulario.addEventListener('submit', submit)
+
+// particulas
+particlesJS.load('particles-container', 'particlesjs-config.json');
