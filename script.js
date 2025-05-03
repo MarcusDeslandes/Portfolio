@@ -11,9 +11,9 @@ const formulario = document.querySelector('#formulario');
 const botaoFormulario = document.querySelector('#formulario-botao');
 
 function submit (event) {
+    event.preventDefault();
     formulario.className = 'edit';
     formulario.innerHTML = 'Obrigado! Responderei assim que possível!';
-    event.preventDefault();
 }
 
 formulario.addEventListener('submit', submit)
