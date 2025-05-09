@@ -16,7 +16,7 @@ function submit (event) {
     formulario.innerHTML = 'Obrigado! Responderei assim que possível!';
 }
 
-formulario.addEventListener('submit', submit)
+botaoFormulario.addEventListener('submit', submit)
 
 // particulas
 particlesJS.load('particles-container', 'particlesjs-config.json');
