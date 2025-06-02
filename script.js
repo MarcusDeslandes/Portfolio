@@ -18,5 +18,18 @@ function submit (event) {
 
 botaoFormulario.addEventListener('submit', submit)
 
+//menu lateral
+const menuLateral = document.querySelectorAll('.menu-lateral-item');
+
+menuLateral.forEach(item => {
+    item.addEventListener('click', () => {
+        //remove a classe 'selected' de todos os botoes
+        menuLateral.forEach(bnt => bnt.classList.remove('selected'));
+
+        //Adiciona a classe 'selected' ao item clicado
+        item.classList.add('selected');
+    })
+})
+
 // particulas
 particlesJS.load('particles-container', 'particlesjs-config.json');
