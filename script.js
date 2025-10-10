@@ -32,3 +32,34 @@ menuLateral.forEach(item => {
 
 // particulas
 particlesJS.load('particles-container', 'particlesjs-config.json');
+
+// scroll reveal
+window.revelar = ScrollReveal({reset: true});
+
+revelar.reveal('.sobre-mim', 
+    {
+        duration: 3000,
+        distance: '90px'
+    }
+);
+
+revelar.reveal('.conteudo', 
+    {
+        duration: 3000,
+        distance: '90px'
+    }
+);
+
+revelar.reveal('.skills', 
+    {
+        duration: 3000,
+        distance: '90px'
+    }
+);
+
+revelar.reveal('.projetos', 
+    {
+        duration: 3000,
+        distance: '90px'
+    }
+);
